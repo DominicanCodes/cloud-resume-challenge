@@ -13,11 +13,31 @@ h1, h2, h3 {
     margin-top: 0;
     }
 
+
 div.job {
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+
     border-style:outset;
     border-width: 2px;
     border-radius: 5px;
     border-color: darkgray;
     margin: 5px;
     padding: 1px;
+}
+
+div.job .top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+div.job .top > div {
+    /* border-style: dotted; */
+    flex-shrink: 0;
+    margin: 1px;
+    padding:5px
 }
