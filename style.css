@@ -14,29 +14,33 @@ h1, h2, h3 {
     }
 
 
-div.job {
+div.job, div.school {
     display: flex;
-    flex: 1 0 0;
+    flex: 1 1 0;
     flex-direction: column;
 
-    border-style:outset;
+    border-style: outset;
     border-width: 2px;
     border-radius: 5px;
     border-color: darkgray;
+    
+    
     margin: 5px;
     padding: 1px;
 }
 
-div.job .top{
+div.job > div, div.school > div {
     width: 100%;
+}
+
+div.job .top, div.school .top{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
 
-div.job .top > div {
-    /* border-style: dotted; */
+div.job .top > div, div.school .top > div {
     flex-shrink: 0;
     margin: 1px;
     padding:5px
