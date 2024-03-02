@@ -2,3 +2,22 @@
     max-width: 700px;
     margin: auto;
 }
+
+body {
+    font-family: Garamond;
+    line-height: 1.5;
+    min-width: 500px;
+    }
+
+h1, h2, h3 {
+    margin-top: 0;
+    }
+
+div.job {
+    border-style:outset;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: darkgray;
+    margin: 5px;
+    padding: 1px;
+}
