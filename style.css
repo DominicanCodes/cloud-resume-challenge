@@ -7,6 +7,7 @@ body {
     font-family: Garamond;
     line-height: 1.5;
     min-width: 500px;
+    background-color: gray;
     }
 
 h1, h2, h3 {
@@ -14,7 +15,7 @@ h1, h2, h3 {
     }
 
 
-div.job, div.school {
+div.job, div.school, div.extras .container {
     display: flex;
     flex: 1 1 0;
     flex-direction: column;
@@ -23,10 +24,11 @@ div.job, div.school {
     border-width: 2px;
     border-radius: 5px;
     border-color: darkgray;
+    background-color: lightgray;
     
     
     margin: 5px;
-    padding: 1px;
+    padding: 2px;
 }
 
 div.job > div, div.school > div {
@@ -44,4 +46,9 @@ div.job .top > div, div.school .top > div {
     flex-shrink: 0;
     margin: 1px;
     padding:5px
+}
+
+div.extras .container > p {
+    margin: 5px;
+    padding: 2px;
 }
