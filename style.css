@@ -103,10 +103,6 @@ div.extras .container > p {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 295px;
-
     background-color: antiquewhite;
     border-style:double;
     border-width: 3px;
@@ -115,7 +111,7 @@ footer {
     border-left: 0px;
     border-right: 0px; */
     text-align: right;
-    width: 750px;
+    max-width: 750px;
     padding-top: 2px;
     padding-right: 5px;
 }
