@@ -8,7 +8,7 @@
 4. Static Website - _In Progress_
 5. HTTPS
 6. DNS
-7. Javascript
+7. Javascript - **DONE**
 8. Database
 9. API
 10. Python
