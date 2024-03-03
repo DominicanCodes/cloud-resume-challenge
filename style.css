@@ -13,6 +13,14 @@ h1, h2, h3 {
     margin-top: 0;
     }
 
+#header {
+    height: 40px;
+    width: 100%;
+    /* background-color: #ffcccc; */
+    position: fixed;
+    z-index: 1;
+    }
+
 nav {
     display: flex;
     flex-direction: row;
@@ -88,6 +96,10 @@ div.job .top > div, div.school .top > div {
 div.extras .container > p {
     margin: 5px;
     padding: 2px;
+}
+
+.right {
+    text-align: right;
 }
 
 footer {
