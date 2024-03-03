@@ -1,5 +1,4 @@
 *{
-    max-width: 700px;
     margin: auto;
 }
 
@@ -7,7 +6,7 @@ body {
     font-family: Garamond;
     line-height: 1.5;
     min-width: 500px;
-    background-color: gray;
+    background-color: slategray;
     }
 
 h1, h2, h3 {
@@ -46,9 +45,10 @@ a:visited {
 }
 
 div.wrapper {
+    max-width: 700px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 20px;
+    padding-bottom: 35px;
     background-color: antiquewhite;
 }
 
@@ -88,4 +88,27 @@ div.job .top > div, div.school .top > div {
 div.extras .container > p {
     margin: 5px;
     padding: 2px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 295px;
+
+    background-color: antiquewhite;
+    border-style:double;
+    border-width: 3px;
+    /* border-top: 15px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px; */
+    text-align: right;
+    width: 750px;
+    padding-top: 2px;
+    padding-right: 5px;
+}
+
+#signature {
+    /* border-style: dashed; */
+    font-family: cursive, Times, serif; font-style: italic;
 }
