@@ -1,5 +1,5 @@
 *{
-    /* margin: auto; */
+    margin: auto;
 }
 
 body {
@@ -14,7 +14,6 @@ h1, h2, h3 {
     }
 
 header {
-    margin: auto;
     max-width: 700px;
     display: flex;
     flex-direction: row;
@@ -25,6 +24,7 @@ header {
     }
 
 header > div {
+    margin: 0;
     height: 20px;
     padding-right: 5px;
 }
@@ -66,7 +66,6 @@ a:visited {
 }
 
 div.wrapper {
-    margin: auto;
     max-width: 700px;
     padding-left: 10px;
     padding-right: 10px;
@@ -121,7 +120,6 @@ footer {
     border-style:double;
     border-width: 3px;
     
-    margin: auto;
     text-align: right;
     max-width: 750px;
     padding-top: 2px;
