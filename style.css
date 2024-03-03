@@ -15,6 +15,7 @@ h1, h2, h3 {
 
 header {
     max-width: 700px;
+    margin-top: 5px;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
